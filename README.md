@@ -12,8 +12,15 @@
   
 ## Guide & Setup
 ```
+Compile
+---------------
 g++ -o main main.cpp -lwlanapi
 Usage: main.exe <network_ssid> <network_adapter>
+
+Steps:
+Authenticate with your iDevice hotspot
+Disconnect from it, then change the password of the hotspot
+Run the POC with valid arguments
 ```
 
 ## Credits
